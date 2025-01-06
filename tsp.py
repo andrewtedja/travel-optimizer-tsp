@@ -1,4 +1,5 @@
 import numpy as np
+import time
 
 def tsp(graph, start):
     n = len(graph)
@@ -67,3 +68,8 @@ if __name__ == "__main__":
     print("Jarak total perjalanan:", total_distance, "meter")
     print("Jalur optimal:", " -> ".join(map(str, path)))
 
+    # Test Runtime
+    start_time = time.time()
+    total_distance, path = tsp(graph, start)
+    end_time = time.time()
+    print("Runtime:", end_time - start_time, "detik")
