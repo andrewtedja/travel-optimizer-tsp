@@ -46,12 +46,7 @@ if __name__ == "__main__":
         [64.3, 1.0, 76.8, 66.9, 59.0, 82.1, 65.9, 65.0, 62.6, 0]
     ]
 
-
     start = 0  # titik awal perjalanan
-
-    locations = ["Tangkuban Perahu", "Lembang", "Maribaya", "Dago", "Ciwidey",
-    "Rancabali", "Situ Patenggang", "Cikole", "Punclut", "Pangalengan"]
-
 
     # Dynamic Programming
     start_time = time.time()
