@@ -34,7 +34,7 @@ pip install numpy
 ## Cara penggunaan
 
 ```bash
-git clone https://github.com/username/tsp-travel-optimizer.git
+git clone https://github.com/andrewtedja/tsp-travel-optimizer.git
 cd tsp-travel-optimizer
 ```
 
