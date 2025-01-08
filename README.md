@@ -6,7 +6,7 @@
 
 ---
 
-![TSP Travel Optimizer Visualization](/TSP.png)
+![TSP Travel Optimizer Visualization](public/TSP.png)
 
 ## Fitur
 
